@@ -34,7 +34,6 @@
             "Tests\\": "tests/"
         }
     },
-    "prefer-stable": true,
     "extra": {
         "laravel": {
             "dont-discover": []
