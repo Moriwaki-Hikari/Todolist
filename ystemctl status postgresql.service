@@ -1,0 +1,12 @@
+[0;1;31m●[0m postgresql-14.service - PostgreSQL 14 database server
+   Loaded: loaded (/usr/lib/systemd/system/postgresql-14.service; enabled; vendor preset: disabled)
+  Drop-In: /etc/systemd/system/postgresql-14.service.d
+           └─override.conf
+   Active: [0;1;31mfailed[0m (Result: exit-code) since Sun 2021-11-07 04:17:46 UTC; 2min 13s ago
+     Docs: https://www.postgresql.org/docs/14/static/
+  Process: 11074 ExecStartPre=/usr/pgsql-14/bin/postgresql-14-check-db-dir ${PGDATA} [0;1;31m(code=exited, status=1/FAILURE)[0m
+
+Nov 07 04:17:46 localhost.localdomain systemd[1]: Starting PostgreSQL 14 database server...
+Nov 07 04:17:46 localhost.localdomain systemd[1]: [0;1;39m[0;1;31m[0;1;39mpostgresql-14.service: Control process exited, code=exited status=1[0m
+Nov 07 04:17:46 localhost.localdomain systemd[1]: [0;1;39m[0;1;31m[0;1;39mpostgresql-14.service: Failed with result 'exit-code'.[0m
+Nov 07 04:17:46 localhost.localdomain systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start PostgreSQL 14 database server.[0m
